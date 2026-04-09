@@ -1,0 +1,4 @@
+Method,ARI,AMI,NMI,Homogeneity,Completeness,V_measure,Purity,ACC_aligned,BalACC_aligned,Silhouette,DaviesBouldin
+K-Means(k=3),0.0082,0.0369,0.0503,0.0473,0.0537,0.0503,0.5033,0.4305,0.4318,0.0944,2.3623
+Agglomerative-Ward(k=3),0.0424,0.0708,0.0835,0.0794,0.0881,0.0835,0.5099,0.4305,0.4554,0.09,2.4426
+GMM(k=3),0.0422,0.0738,0.0865,0.0818,0.0918,0.0865,0.5166,0.4503,0.4734,0.0974,2.4017
