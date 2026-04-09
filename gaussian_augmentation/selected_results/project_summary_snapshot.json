@@ -1,0 +1,47 @@
+{
+  "final_auc_best": {
+    "model": "BayesianRidge",
+    "auc": 0.7023353084698502,
+    "acc": 0.7548076923076923
+  },
+  "final_acc_best": {
+    "model": "GBDT",
+    "auc": 0.6550482165679098,
+    "acc": 0.7836538461538461
+  },
+  "strict_supervised_best": {
+    "model": "Blend_CatBoost_KNN_RF",
+    "auc": 0.8,
+    "acc": 0.675
+  },
+  "strict_unsupervised_auc_best": {
+    "model": "IsolationForestHybridPCA",
+    "auc": 0.7825,
+    "acc": 0.55
+  },
+  "strict_unsupervised_acc_best": {
+    "model": "Blend_Gaussian_IsoClinical",
+    "auc": 0.7275,
+    "acc": 0.625
+  },
+  "enhanced_supervised_best": {
+    "model": "HybridKNN",
+    "auc": 0.8125,
+    "acc": 0.7
+  },
+  "enhanced_unsupervised_best": {
+    "model": "IsolationForestHybridPCA",
+    "auc": 0.765,
+    "acc": 0.6
+  },
+  "wav2vec_aug_auc_best": {
+    "model": "SVM",
+    "auc": 0.5409416748126425,
+    "acc": 0.6204413472706156
+  },
+  "wav2vec_noaug_acc_best": {
+    "model": "SVM",
+    "auc": 0.4391381557510589,
+    "acc": 0.7260162601626016
+  }
+}

@@ -1,0 +1,4 @@
+label,auc,acc,source
+strict IsolationForestHybridPCA,0.7825,0.55,data_balance_final
+strict Blend_Gaussian_IsoClinical,0.7275,0.625,data_balance_final
+enhanced IsolationForestHybridPCA,0.765,0.6,data_balance_final_enhanced

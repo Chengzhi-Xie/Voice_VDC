@@ -1,0 +1,7 @@
+label,auc,acc,source
+final BayesianRidge,0.7023353084698502,0.7548076923076923,final
+final GBDT,0.6550482165679098,0.7836538461538461,final
+strict Blend_CatBoost_KNN_RF,0.8,0.675,data_balance_final
+enhanced HybridKNN,0.8125,0.7,data_balance_final_enhanced
+wav2vec+aug SVM,0.5409416748126425,0.6204413472706156,wav2vec
+wav2vec no-aug SVM,0.4391381557510589,0.7260162601626016,wav2vec

@@ -1,0 +1,7 @@
+﻿section,model,test_auc,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_mcc,n_features,notes
+supervised_best,HybridKNN,0.8125,0.7000,0.7000,0.6250,1.0000,0.7692,0.5000,336,best overall supervised enhanced model
+supervised_gpu_catboost_best,HybridCatBoost,0.7625,0.5500,0.5500,0.5278,0.9500,0.6786,0.1667,336,best GPU CatBoost hybrid model
+unsupervised_best_auc,IsolationForestHybridPCA,0.7650,0.6000,0.6000,0.5556,1.0000,0.7143,0.3333,336,best unsupervised AUROC
+unsupervised_best_acc,Blend_Gaussian_IsoClinical,0.7463,0.6000,0.6000,0.5556,1.0000,0.7143,0.3333,41,best unsupervised ACC trade-off
+shap_clinical_gpu,clinical_catboost_gpu,0.7400,0.5500,0.5500,0.5278,0.9500,0.6786,0.1667,41,clinical SHAP explainer model
+shap_hybrid_gpu,hybrid_catboost_gpu,0.7375,0.5750,0.5750,0.5405,1.0000,0.7018,0.2847,336,hybrid SHAP explainer model
