@@ -1,6 +1,9 @@
 # Voice_VDC
 A leakage-aware acoustic–clinical fusion pipeline for robust voice disorder classification on the VOICED dataset, combining handcrafted speech features, clinical metadata, subgroup analysis, and SHAP-based interpretability.
-<img width="399" height="267" alt="image" src="https://github.com/user-attachments/assets/3a7dae28-79b3-4ba5-9741-ed95b367e721" />
+
+<img width="1536" height="1024" alt="Fig 1" src="https://github.com/user-attachments/assets/6cec9b3b-30f9-45ce-b468-b2fc8482d108" />
+
+
 Overview of the proposed leakage-aware machine learning pipeline for voice pathology classification.
 
 ## Overview
