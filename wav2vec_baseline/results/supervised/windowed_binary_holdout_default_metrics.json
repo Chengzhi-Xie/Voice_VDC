@@ -1,0 +1,21 @@
+{
+  "eval_mode": "holdout",
+  "window_sec": 1.5,
+  "hop_sec": 0.5,
+  "model": "catboost",
+  "threshold": 0.17,
+  "metrics": {
+    "auc": 0.7055555555555556,
+    "accuracy": 0.7619047619047619,
+    "balanced_accuracy": 0.5833333333333334,
+    "precision": 0.75,
+    "recall": 1.0,
+    "specificity": 0.16666666666666666,
+    "f1": 0.8571428571428571,
+    "mcc": 0.35355339059327373,
+    "tp": 30,
+    "fp": 10,
+    "fn": 0,
+    "tn": 2
+  }
+}
