@@ -1,0 +1,12 @@
+{
+  "fixed_test_hard_leakage": "not_detected",
+  "cv_augmentation_leakage_risk": "present_in_previous_versions",
+  "cv_subgroup_fit_leakage_risk": "present_in_previous_versions",
+  "test_set_selection_bias_risk": "present_if_best_model_is_chosen_after_viewing_fixed_test_results",
+  "main_findings": [
+    "Previous data_balance and data_balance_o pipelines generated synthetic healthy samples before CV using all real training subjects, so each validation fold indirectly influenced the augmentation distribution.",
+    "Previous data_balance_o also fit subgroup and clinical KMeans once on all real training subjects before CV, so validation folds indirectly influenced subgroup assignments and engineered subgroup features.",
+    "Those issues do not leak fixed test samples into training, but they make CV metrics optimistic and can bias model selection.",
+    "The new data_balance_final pipeline removes that risk by fitting Gaussian augmentation and subgroup models inside each training fold only, while keeping the same fixed test untouched."
+  ]
+}

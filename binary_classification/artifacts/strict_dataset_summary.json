@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "n_train": 262,
+  "n_test": 40,
+  "n_real_healthy": 37,
+  "n_real_disease": 131,
+  "n_synthetic_healthy": 94,
+  "train_label_counts": {
+    "0": 131,
+    "1": 131
+  },
+  "test_label_counts": {
+    "0": 20,
+    "1": 20
+  },
+  "n_features": 247,
+  "acoustic_noise_scale": 0.3,
+  "clinical_noise_scale": 0.2,
+  "healthy_subgroup_share": {
+    "0": 0.40540540540540543,
+    "1": 0.3783783783783784,
+    "2": 0.21621621621621623
+  },
+  "healthy_n_subgroups": 3,
+  "clinical_n_subgroups": 4
+}
